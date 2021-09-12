@@ -1,0 +1,22 @@
+package string;
+
+import java.util.*;
+
+//영어 알파벳과 특수문자로 구성된 문자열에서, 알파벳만 뒤집고 특수문자를 그대로 위치하게 만들어서 출력.
+public class ReverseWord2 {
+
+	public String solution(String str) {
+		String answer;
+		char[] s = str.toCharArray();
+		
+		return answer;
+	}
+	
+	public static void main(String[] args) {
+		ReverseWord2 R = new ReverseWord2();
+		Scanner kb = new Scanner(System.in);
+		String str = kb.next();
+		System.out.println(R.solution(str));
+		kb.close();
+	}
+}
